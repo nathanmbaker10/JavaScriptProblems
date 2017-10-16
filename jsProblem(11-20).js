@@ -6,11 +6,7 @@ function tester() {
     document.getElementById("output").innerHTML =countClumps([1, 2, 2, 3, 4, 4]);
 }
 function firstLast6(numArr) {
-    if (numArr[0] == 6 || numArr[numArr.length -1] == 6) {
-        return true;
-    } else {
-        return false;
-    }
+    return (numArr[0] == 6 || numArr[numArr.length - 1] == 6);
 }
 
 function has23(numArr) {
